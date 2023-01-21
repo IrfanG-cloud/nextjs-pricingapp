@@ -1,11 +1,15 @@
+"use client"
 
-import styles from './page.module.css'
+import { Box } from "@chakra-ui/react"
 
 export default function Home() {
+
   return (
-    <>
-    <h1>Hello Pricing</h1>
-    <p>this is para</p>
-    </>
+    <div className="Home">
+      <Box color='white' w='1200px'>
+        <h1>Hello Pricing</h1>
+        <p>this is para</p>
+      </Box>
+    </div>
   )
 }
