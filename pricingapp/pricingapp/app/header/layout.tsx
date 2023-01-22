@@ -4,6 +4,7 @@
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react'
+import Header from './page'
 
 
 export default function RootLayout({
@@ -15,6 +16,7 @@ export default function RootLayout({
     <ChakraProvider>
       <head />
       <body>
+      
         <Box>        
             {children}
         </Box>

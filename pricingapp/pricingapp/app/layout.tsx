@@ -3,7 +3,7 @@
 
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
-import Header from '../app/header/page'
+import Header from './header/page'
 import { Box } from '@chakra-ui/react'
 
 export default function RootLayout({
