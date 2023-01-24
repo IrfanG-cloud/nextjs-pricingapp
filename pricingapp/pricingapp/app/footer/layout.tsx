@@ -1,11 +1,13 @@
+
 "use client"
 
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react'
+import Footer from './page'
 
 
-export default function LoginLayout({
+export default function FooterLayout({
   children,
 }: {
   children: React.ReactNode
@@ -14,10 +16,11 @@ export default function LoginLayout({
     <ChakraProvider>
       <head />
       <body>
-          <Box w="100%" bg='black' h='auto'>
+      
+        <Box>        
             {/* {children} */}
-          </Box>
-      </body>
+        </Box>
+        </body>
     </ChakraProvider>
   )
 }

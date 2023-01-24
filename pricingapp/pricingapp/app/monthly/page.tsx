@@ -10,19 +10,22 @@ import {
   ListIcon,
   Button,
   useColorModeValue,
+  Link,
 } from '@chakra-ui/react';
 import CheckIcon from '@chakra-ui/icons';
 
-export default function Pricing() {
+export default function Monthly() {
   return (
-    <Center py={6} mt={10}>
+    <Center py={6} mt={10} >
       <Box
         maxW={'300px'}
         w={'full'}
         bg={useColorModeValue('white', 'gray.800')}
         boxShadow={'2xl'}
         rounded={'md'}
-        overflow={'hidden'}>
+        overflow={'hidden'}
+        
+        >
         <Stack
           textAlign={'center'}
           p={3}
@@ -31,10 +34,10 @@ export default function Pricing() {
           <Text
             fontSize={'sm'}
             fontWeight={500}
-            bg={useColorModeValue('green.50', 'green.900')}
+            bg={useColorModeValue('red.50', 'red.900')}
             p={2}
             px={3}
-            color={'green.500'}
+            color={'red.500'}
             rounded={'full'}>
             Hobby
           </Text>
@@ -71,17 +74,18 @@ export default function Pricing() {
               ml={4}
               mt={10}
               w={'full'}
-              bg={'green.400'}
+              bg={'red.500'}
               color={'white'}
               rounded={'xl'}
               boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
               _hover={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}
               _focus={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}>
-              Start your trial
+                <Link href='/trial'>Start your trial</Link>
+              
             </Button>
           </Box>
         </Box>
@@ -103,10 +107,10 @@ export default function Pricing() {
           <Text
             fontSize={'sm'}
             fontWeight={500}
-            bg={useColorModeValue('green.50', 'green.900')}
+            bg={useColorModeValue('red.50', 'red.900')}
             p={2}
             px={3}
-            color={'green.500'}
+            color={'red.500'}
             rounded={'full'}>
             Freelancer
           </Text>
@@ -143,17 +147,17 @@ export default function Pricing() {
             ml={4}
               mt={10}
               w={'full'}
-              bg={'green.400'}
+              bg={'red.500'}
               color={'white'}
               rounded={'xl'}
               boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
               _hover={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}
               _focus={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}>
-              Start your trial
+              <Link href='/trial'>Start your trial</Link>
             </Button>
           </Box>
         </Box>
@@ -176,10 +180,10 @@ export default function Pricing() {
           <Text
             fontSize={'sm'}
             fontWeight={500}
-            bg={useColorModeValue('green.50', 'green.900')}
+            bg={useColorModeValue('red.50', 'red.900')}
             p={2}
             px={3}
-            color={'green.500'}
+            color={'red.500'}
             rounded={'full'}>
            Startup
           </Text>
@@ -216,17 +220,17 @@ export default function Pricing() {
               ml={4}
               mt={10}
               w={'full'}
-              bg={'green.400'}
+              bg={'red.500'}
               color={'white'}
               rounded={'xl'}
               boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
               _hover={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}
               _focus={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}>
-              Start your trial
+              <Link href='/trial'>Start your trial</Link>
             </Button>
           </Box>
         </Box>
@@ -249,10 +253,10 @@ export default function Pricing() {
           <Text
             fontSize={'sm'}
             fontWeight={500}
-            bg={useColorModeValue('green.50', 'green.900')}
+            bg={useColorModeValue('red.50', 'red.900')}
             p={2}
             px={3}
-            color={'green.500'}
+            color={'red.500'}
             rounded={'full'}>
             Enterprise
           </Text>
@@ -288,17 +292,17 @@ export default function Pricing() {
             <Button
               mt={10}
               w={'full'}
-              bg={'green.400'}
+              bg={'red.500'}
               color={'white'}
               rounded={'xl'}
               boxShadow={'0 5px 20px 0px rgb(72 187 120 / 43%)'}
               _hover={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}
               _focus={{
-                bg: 'green.500',
+                bg: 'red.500',
               }}>
-              Start your trial
+             <Link href='/trial'>Start your trial</Link>
             </Button>
           </Box>
         </Box>

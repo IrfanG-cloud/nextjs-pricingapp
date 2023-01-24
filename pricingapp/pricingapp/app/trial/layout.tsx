@@ -1,13 +1,12 @@
-
 "use client"
 
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react'
-import Header from './page'
+import Home from '../login/page'
 
 
-export default function RootLayout({
+export default function TrialLayout({
   children,
 }: {
   children: React.ReactNode
@@ -17,8 +16,9 @@ export default function RootLayout({
       <head />
       <body>
       
-        <Box>        
-            {children}
+        <Box>    
+          <Home />
+          {children}
         </Box>
         </body>
     </ChakraProvider>

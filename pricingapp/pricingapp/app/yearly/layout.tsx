@@ -3,9 +3,10 @@
 import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react'
+import Home from '../login/page'
 
 
-export default function LoginLayout({
+export default function YearlyLayout({
   children,
 }: {
   children: React.ReactNode
@@ -14,10 +15,11 @@ export default function LoginLayout({
     <ChakraProvider>
       <head />
       <body>
-          <Box w="100%" bg='black' h='auto'>
-            {/* {children} */}
-          </Box>
-      </body>
+      
+ 
+          {children}
+
+        </body>
     </ChakraProvider>
   )
 }

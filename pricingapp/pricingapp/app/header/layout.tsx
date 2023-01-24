@@ -7,7 +7,7 @@ import { Box } from '@chakra-ui/react'
 import Header from './page'
 
 
-export default function RootLayout({
+export default function HeardLayout({
   children,
 }: {
   children: React.ReactNode
@@ -18,7 +18,7 @@ export default function RootLayout({
       <body>
       
         <Box>        
-            {children}
+            {/* {children} */}
         </Box>
         </body>
     </ChakraProvider>
