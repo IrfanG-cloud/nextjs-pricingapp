@@ -9,7 +9,7 @@ export default function Trail() {
 
   return (
 
-        <Heading> Thank You for Trail</Heading>
+       <>hello</>
 
   )
 }

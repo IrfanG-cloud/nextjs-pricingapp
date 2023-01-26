@@ -23,7 +23,7 @@ export default function Home() {
         mb={2}
       >
         <ButtonGroup gap='4'>
-          <Button  colorScheme='red.500' variant='solid' cursor='pointer' >
+          <Button  bg='red.500' color='white' variant='solid' cursor='pointer' >
               <Link href='/monthly'>Monthly Billing</Link>
           </Button>
           <Button   

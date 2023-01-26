@@ -4,7 +4,7 @@ import * as React from 'react'
 import { ChakraProvider } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react'
 import Home from '../login/page'
-
+import Trail from './page'
 
 export default function TrialLayout({
   children,
@@ -16,10 +16,11 @@ export default function TrialLayout({
       <head />
       <body>
       
-        <Box>    
+        {/* <Box>    
           <Home />
           {children}
-        </Box>
+        </Box> */}
+        <Trail />
         </body>
     </ChakraProvider>
   )

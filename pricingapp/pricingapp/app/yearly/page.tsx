@@ -45,7 +45,7 @@ export default function Yearly() {
             <Text fontSize={'6xl'} fontWeight={800}>
               100
             </Text>
-            <Text color={'gray.500'}>/month</Text>
+            <Text color={'gray.500'}>/yearly</Text>
           </Stack>
         </Stack>
 
@@ -117,7 +117,7 @@ export default function Yearly() {
             <Text fontSize={'6xl'} fontWeight={800}>
               200
             </Text>
-            <Text color={'gray.500'}>/month</Text>
+            <Text color={'gray.500'}>/yearly</Text>
           </Stack>
         </Stack>
 
@@ -190,7 +190,7 @@ export default function Yearly() {
             <Text fontSize={'6xl'} fontWeight={800}>
               300
             </Text>
-            <Text color={'gray.500'}>/month</Text>
+            <Text color={'gray.500'}>/yearly</Text>
           </Stack>
         </Stack>
 
@@ -263,7 +263,7 @@ export default function Yearly() {
             <Text fontSize={'6xl'} fontWeight={800}>
              400
             </Text>
-            <Text color={'gray.500'}>/month</Text>
+            <Text color={'gray.500'}>/yearly</Text>
           </Stack>
         </Stack>
 

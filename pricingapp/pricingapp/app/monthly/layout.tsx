@@ -17,7 +17,7 @@ export default function MonthlyLayout({
       <body>
       
         <Box>    
-          <Home />
+          {/* <Home /> */}
           {/* {children} */}
         </Box>
         </body>

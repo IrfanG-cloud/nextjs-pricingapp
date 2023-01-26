@@ -16,8 +16,8 @@ export default function YearlyLayout({
       <head />
       <body>
       
- 
-          {children}
+{/*  
+          {children} */}
 
         </body>
     </ChakraProvider>
